@@ -16,6 +16,16 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* WhatsAppCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WhatsAppCloneTests.m */; };
+		C2E114ACE3684359812D0CC4 /* Helvetica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 728345C664EE4536938ABDFA /* Helvetica.ttf */; };
+		06C9EEA7D5DB4E6795F0CFF6 /* HelveticaNeue-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CCA5EEE272A4A7D92701B01 /* HelveticaNeue-Bold.ttf */; };
+		7180AC7216134EC2895426D0 /* HelveticaNeue-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 083364FDD1EE4B9594A77E6A /* HelveticaNeue-Medium.ttf */; };
+		4F356D82282F4F9A8BDCDDFA /* HelveticaNeue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B49A37092A3C43A2A66592B4 /* HelveticaNeue.ttf */; };
+		7EAFE4AD38E44CCDAEF2C459 /* Bryndan-Write.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E09B465EE92F48658B957E6F /* Bryndan-Write.ttf */; };
+		F37DD960D5EB45B4BACBBB45 /* Norican-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15DB616CA0BD4BA397ADEA61 /* Norican-Regular.ttf */; };
+		2C493CD08F904A10B8D36F2D /* Oswald-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F37C2465C9A54DABBB4DF4A8 /* Oswald-Heavy.ttf */; };
+		DE9536F6E9F64B2FA58CF149 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF0FAFEBD1AE4309A1D082DC /* Roboto-Medium.ttf */; };
+		7EA9EEFF71884C63B45E9747 /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2A0812BD6C947F7967E346A /* RobotoMono-Regular.ttf */; };
+		019CF581F28E459D96B2D276 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7CB2B98384235BA97B723 /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		2D02E4901E0B4A5D006451C7 /* WhatsAppClone-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhatsAppClone-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		728345C664EE4536938ABDFA /* Helvetica.ttf */ = {isa = PBXFileReference; name = "Helvetica.ttf"; path = "../src/assets/fonts/Helvetica.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7CCA5EEE272A4A7D92701B01 /* HelveticaNeue-Bold.ttf */ = {isa = PBXFileReference; name = "HelveticaNeue-Bold.ttf"; path = "../src/assets/fonts/HelveticaNeue-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		083364FDD1EE4B9594A77E6A /* HelveticaNeue-Medium.ttf */ = {isa = PBXFileReference; name = "HelveticaNeue-Medium.ttf"; path = "../src/assets/fonts/HelveticaNeue-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B49A37092A3C43A2A66592B4 /* HelveticaNeue.ttf */ = {isa = PBXFileReference; name = "HelveticaNeue.ttf"; path = "../src/assets/fonts/HelveticaNeue.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E09B465EE92F48658B957E6F /* Bryndan-Write.ttf */ = {isa = PBXFileReference; name = "Bryndan-Write.ttf"; path = "../src/assets/fonts/Bryndan-Write.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		15DB616CA0BD4BA397ADEA61 /* Norican-Regular.ttf */ = {isa = PBXFileReference; name = "Norican-Regular.ttf"; path = "../src/assets/fonts/Norican-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F37C2465C9A54DABBB4DF4A8 /* Oswald-Heavy.ttf */ = {isa = PBXFileReference; name = "Oswald-Heavy.ttf"; path = "../src/assets/fonts/Oswald-Heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF0FAFEBD1AE4309A1D082DC /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A2A0812BD6C947F7967E346A /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; name = "RobotoMono-Regular.ttf"; path = "../src/assets/fonts/RobotoMono-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9DD7CB2B98384235BA97B723 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +160,7 @@
 				00E356EF1AD99517003FC87E /* WhatsAppCloneTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				4B1B99031AB94413803F3CB8 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,6 +177,24 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		4B1B99031AB94413803F3CB8 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				728345C664EE4536938ABDFA /* Helvetica.ttf */,
+				7CCA5EEE272A4A7D92701B01 /* HelveticaNeue-Bold.ttf */,
+				083364FDD1EE4B9594A77E6A /* HelveticaNeue-Medium.ttf */,
+				B49A37092A3C43A2A66592B4 /* HelveticaNeue.ttf */,
+				E09B465EE92F48658B957E6F /* Bryndan-Write.ttf */,
+				15DB616CA0BD4BA397ADEA61 /* Norican-Regular.ttf */,
+				F37C2465C9A54DABBB4DF4A8 /* Oswald-Heavy.ttf */,
+				DF0FAFEBD1AE4309A1D082DC /* Roboto-Medium.ttf */,
+				A2A0812BD6C947F7967E346A /* RobotoMono-Regular.ttf */,
+				9DD7CB2B98384235BA97B723 /* Montserrat-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -295,6 +334,16 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				C2E114ACE3684359812D0CC4 /* Helvetica.ttf in Resources */,
+				06C9EEA7D5DB4E6795F0CFF6 /* HelveticaNeue-Bold.ttf in Resources */,
+				7180AC7216134EC2895426D0 /* HelveticaNeue-Medium.ttf in Resources */,
+				4F356D82282F4F9A8BDCDDFA /* HelveticaNeue.ttf in Resources */,
+				7EAFE4AD38E44CCDAEF2C459 /* Bryndan-Write.ttf in Resources */,
+				F37DD960D5EB45B4BACBBB45 /* Norican-Regular.ttf in Resources */,
+				2C493CD08F904A10B8D36F2D /* Oswald-Heavy.ttf in Resources */,
+				DE9536F6E9F64B2FA58CF149 /* Roboto-Medium.ttf in Resources */,
+				7EA9EEFF71884C63B45E9747 /* RobotoMono-Regular.ttf in Resources */,
+				019CF581F28E459D96B2D276 /* Montserrat-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
