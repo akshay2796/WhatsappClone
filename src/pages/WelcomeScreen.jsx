@@ -13,6 +13,7 @@ import {
 	heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 import { Colors, Fonts } from '../constants';
+import bootStyles from '../assets/styles/bootstrap.css';
 
 export default function WelcomeScreen({ navigation }) {
 	return (

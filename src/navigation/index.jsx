@@ -4,14 +4,12 @@ import {
 	createStackNavigator,
 	CardStyleInterpolators,
 } from '@react-navigation/stack';
-import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import { faEllipsisV } from '@fortawesome/free-solid-svg-icons';
 
 //Screens
-import { WelcomeScreen, PhoneScreen } from '../pages';
+import { WelcomeScreen, PhoneScreen, CountryModal } from '../pages';
 import { Colors, Fonts } from '../constants';
-import { View } from 'react-native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+import { TouchableOpacity } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 
 const Stack = createStackNavigator();
 
@@ -65,9 +63,17 @@ export default function Navigation() {
 						},
 						headerRight: () => (
 							<TouchableOpacity style={{ marginHorizontal: 20 }}>
-								<FontAwesomeIcon icon={faEllipsisV} />
+								<Icon name="ellipsis-v" />
 							</TouchableOpacity>
 						),
+					}}
+				/>
+				<Stack.Screen
+					name="CountryModal"
+					component={CountryModal}
+					options={{
+						cardStyleInterpolator:
+							CardStyleInterpolators.forModalPresentationIOS,
 					}}
 				/>
 			</Stack.Navigator>

@@ -1,15 +1,22 @@
-import React, { useEffect } from 'react';
-import { View, StyleSheet, BackHandler, Text } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import {
+	View,
+	TouchableOpacity,
+	StyleSheet,
+	BackHandler,
+	Text,
+	Image,
+} from 'react-native';
 import { Colors, Fonts } from '../constants';
 import {
 	widthPercentageToDP as wp,
 	heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+import Icon from 'react-native-vector-icons/FontAwesome5';
+import Modal from 'react-native-modal';
+import CountryModal from './CountryModal';
 
-export default function PhoneScreen() {
+export default function PhoneScreen({ navigation }) {
 	const backAction = () => {
 		return true;
 	};
@@ -19,6 +26,10 @@ export default function PhoneScreen() {
 		return () =>
 			BackHandler.removeEventListener('hardwareBackPress', backAction);
 	}, []);
+
+	const [modalVisible, toggleModalVisible] = useState(false);
+	const [country, setCountry] = useState('United States');
+
 	return (
 		<View style={styles.container}>
 			<View style={styles.smsTextContainer}>
@@ -30,15 +41,33 @@ export default function PhoneScreen() {
 					</Text>
 				</Text>
 			</View>
-			<TouchableOpacity style={styles.countryContainer}>
-				<Text style={styles.country}>United States</Text>
+			<TouchableOpacity
+				styleName="container-new"
+				style={styles.countryContainer}
+				onPress={() => toggleModalVisible(!modalVisible)}>
+				<Text style={styles.country}>{country}</Text>
 				<View style={styles.caretIcon}>
-					<FontAwesomeIcon
-						icon={faCaretDown}
+					<Icon
+						name="caret-down"
 						style={{ color: Colors.tealGreenLight }}
 					/>
 				</View>
 			</TouchableOpacity>
+			<Modal
+				style={StyleSheet.absoluteFill}
+				isVisible={modalVisible}
+				backdropColor={Colors.white}
+				hardwareAccelerated={true}
+				onDismiss={() => toggleModalVisible(false)}
+				onBackButtonPress={() => toggleModalVisible(false)}
+				useNativeDriver={true}
+				hideModalContentWhileAnimating={true}>
+				<CountryModal
+					selected={country}
+					setCountry={setCountry}
+					toggleModalVisible={toggleModalVisible}
+				/>
+			</Modal>
 		</View>
 	);
 }
